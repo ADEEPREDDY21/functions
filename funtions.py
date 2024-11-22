@@ -20,4 +20,28 @@ greet()#Function is the such kind of feature that can be used to repeat a block 
 print("Example for Function with Greeting and Name")
 def greet(name):
     print(f"Hello ,{name} how are you")
-greet("Adeep Reddy")    
+greet("Adeep Reddy")  
+
+my_function()    
+
+def my_exercise(fname,lname):
+    print("my_exercise:",fname+" "+ lname)
+
+my_exercise("adeep","reddy")    
+
+n=int(input("Enter n value:"))
+total=0
+for r in range(1,n+1):
+   total+=r**2
+   print(r*r)
+print(f"total of sum of {n} th squres",  total)   
+
+print("same code with define function concept")
+def my_square(n):
+    sum=0
+    for a in range(1,n+1):
+        sum+=a**2
+        print(a**2)
+    return sum
+n=int(input("Enter number:"))
+print("Sum of Squares is",my_square(n))    
